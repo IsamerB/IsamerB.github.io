@@ -1,8 +1,4 @@
-<html>
-<head>
-<title>Thanks For Contacting Us</title>
-</head>
-<body>
+
 <?php
 
   $recipient = 'isamerclimbs@gmail.com';
@@ -44,5 +40,4 @@ mail($recipient,
     echo("<p>Your message has been sent. Thank you!</p>\n");
   }
 ?>
-</body>
-</html>
+
