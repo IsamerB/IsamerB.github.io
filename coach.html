@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="Web Developer Profile" content="Personal Website for Isamer Bilog">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800">
+    <title> Isamer Bilog </title>
+  </head>
+
+    <body>
+
+    <header>
+      <h1> Coach </h1>
+      <nav>
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">NAVIGATION</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="professional.html">Professional</a>
+            <a href="hobbyist.html">Hobbyist</a>
+            <a href="coach.html">Coach</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <figure>
+    <img src="/images/Coach1.JPG" class="coachphoto">
+    <figcaption> Photo | Dan Krauss </figcaption>
+    </figure>
+<div class="coachhighlights">
+  <br>
+    <ul>
+      <h2> Coaching Focus </h2>
+      <ul>
+        <li> Movement Analysis </li>
+        <li> Sport Specific Training Activities </li>
+        <li> Body Awareness </li>
+        <li> Sports Psychology </li>
+        <li> Goal Setting </li>
+      </ul>
+      <h2> Certifications </h2>
+      <ul>
+        <li> USA Climbing Coach </li>
+        <li> First Aid/AED </li>
+        <li> SafeSport Training</li>
+        <br>
+        <br>
+      </ul>
+    </div>
+    <p>I am a coach and personal trainer at the <a href="https://www.strongholdclimb.com/">Stronghold Climbing Gym</a> where I help teach the Youth Climbing Team and conduct private lessons.
+      My coaching methodology is heavily influenced from Douglas Hunter's pedagogy. He is the co-author of <a href="http://www.selfcoachedclimber.com/"> The Self Coached Climber</a>,
+    a book that is well regarded in the climbing community. If you are interested in a session with me, please contact me below or call me at 626-674-5796.</p>
+
+
+<br>
+    <form action="takeform.php" method="POST">
+    <p>
+      <strong> Email </strong>
+    <input
+    name="email"
+    size="64"
+    maxlength="64"/>
+
+    </p>
+    <p>
+    <strong>  Name </strong>
+    <input
+    name="realname"
+    size="64"
+    maxlength="64"/>
+
+    </p>
+    <p>
+
+    </p>
+    <p>
+  <strong>  Message </strong>
+    </p>
+    <p>
+    <textarea
+    name="body"
+    rows="10"
+    cols="60">
+    </textarea>
+  </p>
+    <p>
+    <input type="submit" name="send" value="Send Your Message"/>
+    </p>
+    </form>
+
+
+    <script src="app.js" type="text/javascript"></script>
+    </body>
+
+</html>
